@@ -1,0 +1,41 @@
+/*1. color general de la lletra negra*/
+#color {
+    color:black;
+}
+
+/*2. titol nivell 1 fons blanc lletra gris*/
+h1{
+    background-color: white;
+    color:gray;
+}
+
+/*3. tots els strong en color verd i subratllats*/
+strong {
+    color:green;
+    text-decoration: underline;
+}
+
+
+/*4. enllaços del paràgraf2 en italica*/
+.paragraf2 a{
+    font-style: italic;
+}
+
+/*5. footer general del web centrat i lletra de 10px*/
+h3 ~ footer{
+    text-align: center;    
+    font-size: 10px;
+    position: relative;
+    margin: auto;
+}
+footer{
+    position: relative;
+    text-align: center;
+}
+
+/*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
+
+/*a. l'únic que canvia és el primer <strong> que hi ha a la pàgina, que canvia de color verd a rosa, perquè en html, quan carregues dues pàgines css, la darrera que càrregues és la que s'apliquen els seus estils a la pàgina html*/
+/*b. Aplicaria un estil in-line al primer strong amb el color que tenia abans perquè encara que canviï l'ordre de càrrega de les pàgines css el color no canviï*/
+
+
